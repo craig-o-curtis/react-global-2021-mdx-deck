@@ -1,0 +1,20 @@
+{
+  "name": "mdx-deck-react-global-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "scripts": {
+    "start": "mdx-deck src/deck.mdx",
+    "build": "mdx-deck build src/deck.mdx",
+    "pdf": "npx website-pdf http://localhost:8000/print -o deck.pdfx",
+    "png": "npx capture-website-cli http://localhost:8000 deck.png"
+  },
+  "author": "",
+  "license": "ISC"
+}
